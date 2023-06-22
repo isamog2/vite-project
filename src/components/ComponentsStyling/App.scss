@@ -1,0 +1,35 @@
+.header {
+  scale: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: hotpink;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0 20px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cv-component {
+
+}
+
+.header:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  h2 {
+    margin-top: 10px;
+  }
+}
+
+.img-div {
+}
