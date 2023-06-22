@@ -8,7 +8,7 @@ function Construction() {
             <h1>🚧🚧👷🏻‍🚧🚧</h1>
             <p>Hi! This page is under construction.
                 I'm using Radix headless components, React.js and Vite.
-            This page is temporarily broken on mobile but a banger on desktop.</p>
+            This page is temporarily broken on mobile but it's a banger on desktop 😝</p>
         </div>
     );
 }
