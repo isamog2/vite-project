@@ -1,6 +1,6 @@
 import * as React from 'react';
-import './ComponentsStyling/App.scss'
-import isaPhoto from '../assets/IsaPhoto.jpg'
+import '../ComponentsStyling/App.scss'
+import isaPhoto from '../../assets/IsaPhoto.jpg'
 
 function AboutMe() {
 
