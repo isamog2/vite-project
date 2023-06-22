@@ -7,11 +7,11 @@ import Construction from "../components/Header/Construction.jsx";
 function Home() {
     return (
         <>
-            <Construction />
         <div className="home">
         <div className="header">
             <AboutMe />
             <HeaderMenu />
+            <Construction />
         </div>
             <CvComponent />
         </div>

@@ -2,6 +2,7 @@
 @import '@radix-ui/colors/mauve.css';
 @import '@radix-ui/colors/violet.css';
 
+
 body {
   background-image: linear-gradient(330deg, hsl(272, 53%, 50%) 0%, hsl(226, 68%, 56%) 100%);
   .home {
@@ -23,14 +24,31 @@ body {
 .header {
   scale: 50%;
   padding: 20px 20px 0 20px;
+  .construction {
+    background-color: hotpink;
+  }
 }
 
 .construction {
   border-radius: 6px;
   background-color: var(--mauve6);
   box-shadow: 0 2px 10px var(--blackA4);
-  width: 22vw;
+  width: 32vw;
+  margin-bottom: 10px;
+  p {
+    padding: 0 10px 10px 10px;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  h1 {
+    text-align: center;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 0;
+    background-color: white;
+  }
 }
+
 
 @import '@radix-ui/colors/blackA.css';
 @import '@radix-ui/colors/mauve.css';
