@@ -7,11 +7,8 @@ body {
   .home {
     display: flex;
     align-items: center;
+    gap: 2%;
   }
-}
-
-.AccordionRoot {
-  width: 42vw;
 }
 
 .AccordionRoot,  .header {
@@ -21,8 +18,11 @@ body {
 }
 
 .header {
-  scale: 50%;
-  padding: 20px 20px 0 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  padding: 12px;
   .construction {
     background-color: hotpink;
   }
@@ -32,7 +32,6 @@ body {
   border-radius: 6px;
   background-color: var(--mauve6);
   box-shadow: 0 2px 10px var(--blackA4);
-  width: 32vw;
   margin-bottom: 10px;
   p {
     padding: 0 15px 10px 10px;
@@ -112,6 +111,10 @@ svg {
   animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
 }
 
+.img-div {
+
+  aspect-ratio: 0.8/1;
+}
 .AccordionContentText {
   padding: 15px 20px;
 }

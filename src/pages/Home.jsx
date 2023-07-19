@@ -1,17 +1,16 @@
-import AboutMe from "../components/Header/AboutMe.jsx";
-import HeaderMenu from "../components/Header/HeaderMenu.jsx"
+
 import "../components/ComponentsStyling/App.scss";
 import CvComponent from "../components/CVComponent/CvComponent.jsx";
-import Construction from "../components/Header/Construction.jsx";
+import Header from "../components/Header/Header.jsx"
 
-function Home() {
+function Home(props) {
+
+    console.log(props)
     return (
         <>
         <div className="home">
-        <div className="header">
-            <AboutMe />
-            <HeaderMenu />
-            <Construction />
+        <div>
+            <Header> {props.testProps} </Header>
         </div>
             <CvComponent />
         </div>
